@@ -55,7 +55,7 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
-  include hub
+  # include hub
   include nginx
 
   # fail if FDE is not enabled
@@ -74,6 +74,13 @@ node default {
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+
+  # Lean Moves
+  include dropbox
+  include heroku
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
 
   # common, useful packages
   package {
