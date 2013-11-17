@@ -78,6 +78,7 @@ node default {
   # Lean Moves
   include dropbox
   include heroku
+  include postgresql
   heroku::plugin { 'accounts':
     source => 'ddollar/heroku-accounts'
   }
