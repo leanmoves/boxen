@@ -56,5 +56,6 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "dropbox",    "1.1.2"
+github "sysctl",     "1.0.0"
 github "postgresql", "2.1.0"
 github "heroku",     "2.1.1"
