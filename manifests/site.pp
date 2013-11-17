@@ -76,6 +76,7 @@ node default {
   include ruby::2_0_0
 
   # Lean Moves
+  include skype
   include dropbox
   include heroku
   include postgresql
