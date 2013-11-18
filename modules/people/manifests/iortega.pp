@@ -8,9 +8,7 @@ class people::iortega {
   include spectacle
   include evernote
   include appcleaner
-  include istatmenus4
   include kindle
-  include calibre
   include pathfinder
 
   $home     = "/Users/${::boxen_user}"
