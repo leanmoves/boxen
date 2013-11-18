@@ -83,6 +83,9 @@ node default {
   heroku::plugin { 'accounts':
     source => 'ddollar/heroku-accounts'
   }
+  include tmux
+  include wget
+  include openssl
 
   # common, useful packages
   package {
