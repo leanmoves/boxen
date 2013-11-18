@@ -13,6 +13,8 @@ class people::iortega {
   include vlc
   include transmission
 
+  include projects::puntospoint
+
   $home     = "/Users/${::boxen_user}"
   $my       = "${home}/code"
   $dotfiles = "${my}/dotfiles"
