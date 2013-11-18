@@ -10,6 +10,8 @@ class people::iortega {
   include appcleaner
   include kindle
   include pathfinder
+  include vlc
+  include transmission
 
   $home     = "/Users/${::boxen_user}"
   $my       = "${home}/code"
