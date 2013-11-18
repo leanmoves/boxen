@@ -65,6 +65,7 @@ github "wget",       "1.0.0"
 github "java",       "1.1.2"
 github "elasticsearch", "2.0.0"
 github "redis",      "1.1.0"
+github "imagemagick", "1.2.1"
 
 # Optional
 github "chrome",     "1.1.2"

@@ -14,17 +14,18 @@ class people::iortega {
   include transmission
 
   include projects::puntospoint
+  include projects::talentboom
+  include projects::talentboomapp
 
   $home     = "/Users/${::boxen_user}"
-  $my       = "${home}/code"
-  $dotfiles = "${my}/dotfiles"
+  $dotfiles = "${::boxen_srcdir}/dotfiles"
 
-  file { $my:
-    ensure  => directory
-  }
+  # file { $::boxen_srcdir:
+  #   ensure  => directory
+  # }
 
   repository { $dotfiles:
     source  => 'iortega/dotfiles',
-    require => File[$my]
+    require => File[$::boxen_srcdir]
   }
 }
