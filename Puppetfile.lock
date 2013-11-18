@@ -9,11 +9,6 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
-  remote: boxen/puppet-calibre
-  specs:
-    calibre (1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.2)
@@ -72,11 +67,6 @@ GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.6.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-istatmenus4
-  specs:
-    istatmenus4 (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
@@ -216,7 +206,6 @@ GITHUBTARBALL
 DEPENDENCIES
   appcleaner (= 1.0.0)
   boxen (= 3.3.4)
-  calibre (= 1.1)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.2)
@@ -230,7 +219,6 @@ DEPENDENCIES
   heroku (= 2.1.1)
   homebrew (= 1.6.0)
   inifile (= 1.0.0)
-  istatmenus4 (= 1.0.0)
   iterm2 (= 1.0.4)
   kindle (= 1.0.1)
   nginx (= 1.4.2)
