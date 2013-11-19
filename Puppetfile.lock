@@ -204,6 +204,11 @@ GITHUBTARBALL
     pathfinder (0.0.1)
 
 GITHUBTARBALL
+  remote: haelmy/puppet-ohmyzsh
+  specs:
+    ohmyzsh (0.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -235,6 +240,7 @@ DEPENDENCIES
   kindle (= 1.0.1)
   nginx (= 1.4.2)
   nodejs (= 3.5.0)
+  ohmyzsh (= 0.0.1)
   openssl (= 1.0.0)
   openssl (= 1.0.0)
   osx (= 2.0.0)

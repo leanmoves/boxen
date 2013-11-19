@@ -12,6 +12,7 @@ class people::iortega {
   include pathfinder
   include vlc
   include transmission
+  include ohmyzsh
 
   include projects::puntospoint
   include projects::talentboom
