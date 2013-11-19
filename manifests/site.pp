@@ -85,7 +85,6 @@ node default {
   }
   include tmux
   include wget
-  include openssl
 
   # common, useful packages
   package {
