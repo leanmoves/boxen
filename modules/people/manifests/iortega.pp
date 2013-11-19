@@ -42,6 +42,9 @@ class people::iortega {
     version => '~> 0.1.3'
   }
 
+  # python conf
+  class { 'python::global': version => '2.7.6' }
+
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${::boxen_srcdir}/dotfiles"
 

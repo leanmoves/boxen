@@ -75,6 +75,13 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # python versions
+  include python::2_7_6
+  include python::3_3_2
+  # python::package { 'virtualenv':
+  #   python_version => '2.7.6',
+  # }
+
   # Lean Moves
   include skype
   include dropbox

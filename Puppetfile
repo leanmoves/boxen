@@ -54,6 +54,7 @@ github "xquartz",    "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "python",     "1.0.4", :repo => "teenst/puppet-python"
 github "skype",      "1.0.6"
 github "dropbox",    "1.1.2"
 github "sysctl",     "1.0.0"
